@@ -44,7 +44,7 @@ module RailsWorkflow
       @default_process_class = "RailsWorkflow::Process"
       @default_process_template_type = "RailsWorkflow::ProcessTemplate"
       @default_assignment_by = [:group, :role]
-      @default_sql_dialect = 'pg'
+      @default_sql_dialect = 'mysql'
     end
 
     def sql_dialect
